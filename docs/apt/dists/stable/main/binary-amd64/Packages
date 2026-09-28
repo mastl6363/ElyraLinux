@@ -1,13 +1,13 @@
 Package: elyra
-Version: 1.1.0
+Version: 1.1.1
 Architecture: amd64
 Maintainer: Elyra Contributors <noreply@example.com>
 Depends: libvlc5, vlc-plugin-base, zenity, libc6 (>= 2.35)
-Filename: pool/main/elyra_1.1.0_amd64.deb
-Size: 38115966
-MD5sum: eef33588a036cf30cf6eec1d089f62df
-SHA1: 506efe8662ba5a0dea5ae50b22bf944d761acb17
-SHA256: f4ab68bac69cbf83d5aec2ab9fe12efcf05cbc03fc86fea951936da6cd3ed2d2
+Filename: pool/main/elyra_1.1.1_amd64.deb
+Size: 38116274
+MD5sum: d635fd08dd7f621830457250402f42a2
+SHA1: 2808ecea1b826aba4fca25abab1694db5fe51eac
+SHA256: b5476b59e7926b61eb30dd6c7a85f34d5cb2f5f380ba3284fcd488c6bb330ebf
 Section: sound
 Priority: optional
 Homepage: https://github.com/mastl6363/elyra
