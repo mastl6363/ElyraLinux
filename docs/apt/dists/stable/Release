@@ -1,0 +1,20 @@
+Architectures: amd64
+Codename: stable
+Components: main
+Date: Mon, 28 Sep 2026 21:09:06 +0000
+Description: Elyra Linux package repository
+Label: Elyra
+Origin: Elyra
+Suite: stable
+MD5Sum:
+ f9574a07733e5129b64bac0601d21d7c              821 main/binary-amd64/Packages
+ f5dda3aa0bab6ff238d17bbdcc5f122a              597 main/binary-amd64/Packages.gz
+SHA1:
+ 48877e8a9a8180070388940bd023d69deb37730b              821 main/binary-amd64/Packages
+ 835daaab3b8d6420291fe492b19b6a5c83ca4239              597 main/binary-amd64/Packages.gz
+SHA256:
+ 3ca026b859d5850d9e21baa298a38016d520456a814fd13ca2439cf43ed1fcc7              821 main/binary-amd64/Packages
+ 11f27b5f6cdefc65bbaad33efe733ead12f0c93e2eb6d379799c3e901213b739              597 main/binary-amd64/Packages.gz
+SHA512:
+ 1f9329fa3e533a85827b690843fa12c61be7311d0809337a4c79210cd1f90dcc2c760dd27dc29dc892404ad3e6aee3a08cedf97a88e68c1b55fe2327ab2ae916              821 main/binary-amd64/Packages
+ 32be07dbb9f4de520b95d6af07cf6446b4d90b3891d2902b14106a83ea0fcc95521cf726b5fed55008b4d0597d792ca9cfe466f85669c20007faa4709c1d35a8              597 main/binary-amd64/Packages.gz

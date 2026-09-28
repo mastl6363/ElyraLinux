@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Elyra — APT-Repository</title>
+<style>
+  :root { color-scheme: dark; }
+  body { background:#0a0a0f; color:#f4f4f5; font-family:system-ui,sans-serif; max-width:720px; margin:4rem auto; padding:0 1.5rem; line-height:1.6; }
+  h1 { color:#c084fc; }
+  code, pre { background:#14141b; border:1px solid #2a2a36; border-radius:0.5rem; }
+  code { padding:0.15rem 0.4rem; }
+  pre { padding:1rem; overflow-x:auto; }
+  a { color:#9d7bff; }
+</style>
+</head>
+<body>
+  <h1>Elyra — APT-Repository</h1>
+  <p>
+    Dieses Verzeichnis ist das offizielle APT-Repository für
+    <a href="https://github.com/mastl6363/ElyraLinux">Elyra unter Linux</a>.
+    Installation (Debian/Ubuntu/Linux Mint, amd64):
+  </p>
+  <pre><code>sudo curl -fsSL https://mastl6363.github.io/ElyraLinux/apt/elyra-archive-keyring.gpg \
+  -o /usr/share/keyrings/elyra-archive-keyring.gpg
+
+echo "deb [signed-by=/usr/share/keyrings/elyra-archive-keyring.gpg] \
+https://mastl6363.github.io/ElyraLinux/apt stable main" \
+  | sudo tee /etc/apt/sources.list.d/elyra.list
+
+sudo apt update
+sudo apt install elyra</code></pre>
+  <p>
+    Danach erscheint Elyra im Anwendungsmenü und erhält Updates über
+    <code>apt upgrade</code> wie jedes andere Paket.
+  </p>
+  <p>Quellcode: <a href="https://github.com/mastl6363/ElyraLinux">github.com/mastl6363/ElyraLinux</a></p>
+</body>
+</html>
