@@ -81,7 +81,7 @@ ASPNETCORE_ENVIRONMENT=Development dotnet run
 
 ```bash
 bash packaging/deb/build-deb.sh          # optional: Versionsnummer als Argument
-sudo dpkg -i packaging/deb/dist/elyra_1.0.0_amd64.deb
+sudo dpkg -i packaging/deb/dist/elyra_*_amd64.deb
 ```
 
 Danach erscheint **Elyra** im App-Menü mit eigenem Icon.
