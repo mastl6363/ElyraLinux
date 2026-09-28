@@ -1,0 +1,16 @@
+# .NET
+bin/
+obj/
+
+# Node / Tailwind
+node_modules/
+
+# Packaging build output
+packaging/deb/staging/
+packaging/deb/dist/
+
+# Editor/OS cruft
+.vs/
+.vscode/
+*.user
+.DS_Store
